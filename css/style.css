@@ -39,7 +39,10 @@ footer{
 .socials{
  list-style-type: none;
  padding: 0;
-    
+}
+
+.socials img {
+    width: 32px;
 }
 
 
