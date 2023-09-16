@@ -10,3 +10,8 @@ Off-white #f6f6f6
 body{
     background: paleturquoise;
 }
+
+.home{
+    background: url("..//placeholder images/joanna-kosinska-unsplash.jpg");
+    background-size: cover;
+}
