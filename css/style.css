@@ -7,8 +7,15 @@ Light Gray #d3d4d6
 Off-white #f6f6f6
 
 */
+
 body{
     background: paleturquoise;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 /* links */
 a{
