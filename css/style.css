@@ -12,12 +12,14 @@ body{
     background: paleturquoise;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
 }
 h1, h2, h3{
     font-family: 'Caveat Brush', cursive;
 }
 html{
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 *, *:before, *:after{
     box-sizing: inherit;
