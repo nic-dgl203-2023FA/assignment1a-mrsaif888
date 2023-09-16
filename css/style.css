@@ -10,6 +10,14 @@ Off-white #f6f6f6
 body{
     background: paleturquoise;
 }
+/* links */
+a{
+    color: #3c8453;
+}
+a:hover{
+    color: #bcaa96;
+    
+}
 
 .home{
     background: url("..//placeholder images/joanna-kosinska-unsplash.jpg");
