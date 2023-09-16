@@ -63,3 +63,7 @@ footer{
     color: #f6f6f6;
     text-decoration: none;
 }
+
+.content-wrapper{
+    margin: 0 auto;
+}
