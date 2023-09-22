@@ -21,7 +21,11 @@ a{
 a:hover{
     text-decoration: none;
 }
-
+.content-wrapper{
+    width: 900px;
+    margin: 0 auto;
+    
+}
 /* Profile
 ----------------------------------*/
 header
