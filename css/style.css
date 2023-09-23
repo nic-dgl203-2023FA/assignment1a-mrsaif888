@@ -9,6 +9,13 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 */
 /* Global styles
 ----------------------------------*/
+
+html{
+    box-sizing: border-box;
+
+}
+
+
 body{
     color: #343434;
     margin: 0;
@@ -26,11 +33,17 @@ a{
 a:hover{
     text-decoration: none;
 }
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
 h2{
-    margin: 0;
+    font-size: 45px;
+   
 }
 h1, h2{
     font-family: 'Caveat', cursive;
+    margin: 0;
     
 }
 .content-wrapper{
