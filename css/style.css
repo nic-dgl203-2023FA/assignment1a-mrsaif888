@@ -88,6 +88,7 @@ header
 }
 .project-item img{
     float: left;
+    margin-right: 20px;
 }
 /* Work Experience
 ----------------------------------*/
