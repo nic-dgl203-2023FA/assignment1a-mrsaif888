@@ -109,4 +109,10 @@ header
 footer{
     background: #343434;
     color: #F7F7F7;
+    
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
 }
