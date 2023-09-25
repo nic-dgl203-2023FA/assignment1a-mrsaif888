@@ -54,6 +54,9 @@ h1, h2{
     padding: 60px 0;
 
 }
+h3 + p{
+    font-style: italic;
+}
 /* Profile
 ----------------------------------*/
 header
