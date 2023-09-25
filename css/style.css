@@ -158,5 +158,8 @@ footer{
 /* Responsive 
 ----------------------------------*/
 @media screen and (min-width:750px) {
-    
+    .project-item img{
+        float: left;
+        margin-right: 20px;
+    }
 }
