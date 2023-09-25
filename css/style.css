@@ -130,6 +130,9 @@ header
     background-size: cover;
     background-position: top right;
 }
+.education p{
+    width: 60%;
+}
 
 /* Contact Info
 ----------------------------------*/
