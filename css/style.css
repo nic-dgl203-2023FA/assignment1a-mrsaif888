@@ -168,7 +168,12 @@ footer{
     
 }
 @media screen and (max-width:749px) {
-  
+    h1{
+        font-size: 75px;
+    }
+    h1, h2{
+        line-height: 1;
+    }
 
 
 }
