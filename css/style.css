@@ -377,5 +377,18 @@ input[type=submit]:hover {
  font-size: 20px;
  padding-top: 20px;
 }
-
+.employment h2{
+  font-size: 30px;
+}
+.employment-detail h3{
+  font-size: 20px;
+  padding-top: 0;
+}
+.employment-detail ul{
+font-size: 15px;
+}
+.employment a{
+  padding: 10px;
+  font-size: 12px;
+}
 }
