@@ -147,6 +147,15 @@ header{
 .text-detail p{
   width: 85%;
 }
+.for-more{
+  margin-top: 30px;
+}
+.for-more a{
+  padding: 15px;
+  background: #F95738;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
 
 /* Education
 ----------------------------------*/
