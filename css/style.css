@@ -168,7 +168,11 @@ header{
   background: #F4D35E;
 }
 .employment-detail{
-  padding-top: 40px;
+  padding: 30px 0;
+  border-bottom: 1px black dotted;
+}
+.employment-detail:last-of-type{
+  border-bottom: none;
 }
 .employment-detail h3{
   padding-top: 20px;
