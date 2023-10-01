@@ -369,3 +369,13 @@ input[type=submit]:hover {
         width: 100%;
       }
 }
+@media (max-width: 500px){
+  .projects h2{
+    font-size: 30px;
+  }
+.text-detail h3{
+ font-size: 20px;
+ padding-top: 20px;
+}
+
+}
