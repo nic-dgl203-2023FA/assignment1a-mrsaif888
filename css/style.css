@@ -200,6 +200,11 @@ header{
 
 /* Education
 ----------------------------------*/
+.education{
+  background: url("/images/texture.webp");
+  background-size: cover;
+  color: #FAF0CA;
+}
 
 /* Contact Info
 ----------------------------------*/
