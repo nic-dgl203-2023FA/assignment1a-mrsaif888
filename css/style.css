@@ -18,7 +18,11 @@ html,body{
 }
 /* Header
 ----------------------------------*/
-
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Profile
 ----------------------------------*/
