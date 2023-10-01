@@ -205,7 +205,13 @@ header{
   background-size: cover;
   
 }
-
+.education-detail{
+  padding-top: 20px;
+}
+.education-detail p{
+  padding: 0;
+  margin: 0;
+}
 
 /* Contact Info
 ----------------------------------*/
