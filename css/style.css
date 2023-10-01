@@ -167,6 +167,9 @@ header{
   text-align: center;
   background: #F4D35E;
 }
+.employment-detail{
+  padding-top: 40px;
+}
 .employment-detail h3{
   padding-top: 20px;
   font-size: 25px;
@@ -179,7 +182,17 @@ header{
 .employment-detail ul{
   text-align: left;
 }
-
+.employment-detail a{
+  padding: 15px;
+  background: #0D3B66;
+  color: #FAF0CA;
+  border-radius: 15px;
+  text-transform: uppercase;
+  
+}
+.employment-detail a:hover{
+  background: rgba(13, 59, 102, 0.8);
+}
 
 /* Education
 ----------------------------------*/
