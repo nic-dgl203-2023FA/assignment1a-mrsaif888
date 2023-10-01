@@ -391,4 +391,13 @@ font-size: 15px;
   padding: 10px;
   font-size: 12px;
 }
+.education h2{
+  font-size: 30px;
+}
+.contact-us h2{
+  font-size: 30px;
+}
+dialog{
+  max-width: 300px;
+}
 }
