@@ -40,6 +40,9 @@ header{
     position: sticky;
     top: 0;
 }
+.portfolio{
+  font-size: 25px;
+}
 .top-nav{
     display: flex;
     align-items: center;
