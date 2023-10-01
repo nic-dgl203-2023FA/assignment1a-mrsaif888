@@ -135,6 +135,9 @@ header{
   justify-content: space-between;
   border-bottom: 1px #FAF0CA dotted;
 }
+.project-detail h3{
+  font-size: 25px;
+}
 
 .project-detail img{
   width: 250px;
