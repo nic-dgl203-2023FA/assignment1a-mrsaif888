@@ -354,6 +354,7 @@ input[type=submit]:hover {
       }
       .menu li a{
         display: none;
+        color: #FAF0CA;
       }
       .menu li a:hover{
         color: #fff;
