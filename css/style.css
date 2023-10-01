@@ -31,6 +31,9 @@ h1,h2,h3,h4{
     margin: 0;
     padding: 0;
 }
+h2{
+  font-size: 40px;
+}
 /* Header
 ----------------------------------*/
 header{
@@ -118,18 +121,14 @@ header{
     font-size: 60px;
     padding-bottom: 20px;
 }
-.profile h2{
-  font-size: 40px;
-}
+
 /* Project
 ----------------------------------*/
 .projects{
   background: #0D3B66;
   color: #FAF0CA;
 }
-.projects h2{
-  font-size: 40px;
-}
+
 .project-detail{
   padding: 30px 0;
   display: flex;
