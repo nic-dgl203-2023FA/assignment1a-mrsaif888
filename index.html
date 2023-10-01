@@ -158,9 +158,15 @@
           <button class="primary" onclick="window.dialog.showModal();">Open Dialog</button>
 
 <dialog id="dialog">
-	<h2>Hello.</h2>
-	<p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p>
-	<p>You can also change the styles of the <code>::backdrop</code> from the CSS.</p>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Example@example.com">
+    <input type="submit" value="Submit">
+
+    
 	<button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
 </dialog>
         </div>
