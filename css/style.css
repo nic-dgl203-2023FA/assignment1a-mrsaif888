@@ -79,6 +79,12 @@ a{
     transform: rotate(-405deg);
   }
   
+.portfolio{
+    font-weight: bold;
+}
+.menu li a{
+    text-transform: uppercase;
+}
 
 
 /* Profile
