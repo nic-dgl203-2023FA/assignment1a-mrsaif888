@@ -85,6 +85,9 @@ a{
 .menu li a{
     text-transform: uppercase;
 }
+.menu li a:hover{
+    color: #0D3B66;
+}
 
 
 /* Profile
