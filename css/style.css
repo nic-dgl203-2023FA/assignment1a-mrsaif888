@@ -167,9 +167,19 @@ header{
   text-align: center;
   background: #F4D35E;
 }
+.employment-detail h3{
+  padding-top: 20px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.employment p,ul{
+  font-size: 19px;
+  
+}
 .employment-detail ul{
   text-align: left;
 }
+
 
 /* Education
 ----------------------------------*/
