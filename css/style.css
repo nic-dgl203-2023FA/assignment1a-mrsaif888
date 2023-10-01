@@ -215,7 +215,11 @@ header{
 
 /* Contact Info
 ----------------------------------*/
-
+.contact-us{
+  background: url(/images/contactus-at-PUR.webp);
+  background-size: cover;
+  text-align: center;
+}
 
 
 /* Responsive 
