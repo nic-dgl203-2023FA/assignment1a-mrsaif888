@@ -125,10 +125,16 @@ header{
 ----------------------------------*/
 .project-detail{
   padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  max-width: 750px;
+  
 }
+
 .project-detail img{
   width: 250px;
 }
+
 /* Education
 ----------------------------------*/
 
