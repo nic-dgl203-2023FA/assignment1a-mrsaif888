@@ -127,6 +127,9 @@ header{
   background: #0D3B66;
   color: #FAF0CA;
 }
+.projects h2{
+  font-size: 40px;
+}
 .project-detail{
   padding: 30px 0;
   display: flex;
