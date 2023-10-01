@@ -135,6 +135,9 @@ header{
   justify-content: space-between;
   border-bottom: 1px #FAF0CA dotted;
 }
+.projects h2{
+  text-align: center;
+}
 .project-detail h3{
   font-size: 25px;
 }
