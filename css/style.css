@@ -313,6 +313,20 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+/* 1. grid on the large screens  */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows on large screens */
+  gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
 
 
 /* Responsive 
