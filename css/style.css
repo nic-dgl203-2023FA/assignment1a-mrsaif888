@@ -370,13 +370,14 @@ input[type=submit]:hover {
 .grid-item img {
   width: 100px;
 }
-.penguin{
+
+.grid-item:hover .penguin{
   animation-name: move;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
+  animation-duration: 2s;
+animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: cubic-bezier(.34,.55,.46,.4);
+animation-direction: alternate-reverse;
+  
 }
 @keyframes move {
  
@@ -426,6 +427,21 @@ input[type=submit]:hover {
   }
   100% {
       transform: perspective(400px) rotateX(0deg);
+  }
+}
+.items-grid{
+  
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: customAnimation 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate;
+}
+@keyframes customAnimation {
+  0% {
+      transform: translateX(80px);
+  }
+  100% {
+      transform: translateX(0);
   }
 }
 
