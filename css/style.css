@@ -342,6 +342,11 @@ input[type=submit]:hover {
   cursor: pointer;
   
 }
+.custom-button:hover {
+  background-color: #F95738;
+  color: #FAF0CA;
+  transform: scale(1.1); /* Scale the button on hover with a longer timing */
+}
 
 
 /* Responsive 
