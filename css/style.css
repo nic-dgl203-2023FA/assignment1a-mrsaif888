@@ -332,6 +332,16 @@ input[type=submit]:hover {
   text-align: center;
   border: 1px solid #ccc;
 } */
+.motion-button {
+  display: inline-block;
+  padding: 15px 80px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  
+}
 
 
 /* Responsive 
