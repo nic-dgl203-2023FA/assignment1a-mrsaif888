@@ -414,9 +414,25 @@ animation-direction: alternate-reverse;
   }
 }
 .flip{
+  font-size: 2rem;
   display: inline-block;
-  animation: flip 2s linear infinite;
+  animation: flip 2.5s linear infinite;
   transform-origin: 50% 50%;
+}
+.S {
+  animation-delay: 0s;
+}
+
+.a {
+  animation-delay: 0.5s;
+}
+
+.i {
+  animation-delay: 1s;
+}
+
+.f {
+  animation-delay: 1.5s;
 }
 @keyframes flip {
   0% {
