@@ -472,6 +472,7 @@ animation-direction: alternate-reverse;
 
 /* Responsive 
 ----------------------------------*/
+/* 1a grid on the small screens */
 @media (max-width: 700px) {
     
     .menu-button-container {
@@ -529,6 +530,10 @@ animation-direction: alternate-reverse;
       .text-detail{
         width: 100%;
       }
+      .grid-container {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+        grid-template-rows: repeat(6, 1fr); /* 6 rows on small screens */
+    }
 }
 @media (max-width: 500px){
   .projects h2{
