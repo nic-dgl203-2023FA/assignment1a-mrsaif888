@@ -429,6 +429,13 @@ animation-direction: alternate-reverse;
       transform: perspective(400px) rotateX(0deg);
   }
 }
+.items-grid {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #FAF0CA;
+}
+
 
 
 
