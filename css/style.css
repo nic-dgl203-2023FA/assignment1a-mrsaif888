@@ -367,6 +367,23 @@ input[type=submit]:hover {
       transform: scale(1); /* Original size */
   }
 }
+.grid-item img {
+  width: 100px;
+}
+.penguin{
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(.34,.55,.46,.4);
+}
+@keyframes move {
+ 
+  100% {
+      transform: translateX(100%);
+  }
+}
 
 
 
