@@ -353,6 +353,7 @@ input[type=submit]:hover {
 .animated-element {
   font-size: 3rem;
   text-shadow: 2px 2px 3px #FAF0CA;
+  animation: pulse 2s infinite;
   
 }
 @keyframes pulse {
