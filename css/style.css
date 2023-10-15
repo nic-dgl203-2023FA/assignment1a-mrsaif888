@@ -340,7 +340,7 @@ input[type=submit]:hover {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, transform 0.5s; /* Transition properties with timing */
+  transition: background-color 0.3s, color 0.3s, transform 1s ease-in; /* Transition properties with timing */
 
   
 }
@@ -348,6 +348,7 @@ input[type=submit]:hover {
   background-color: #F95738;
   color: #FAF0CA;
   transform: scale(1.1); /* Scale the button on hover with a longer timing */
+  border-radius: 15px;
 }
 
 
