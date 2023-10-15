@@ -416,33 +416,33 @@ animation-direction: alternate-reverse;
 .flip{
   font-size: 2rem;
   display: inline-block;
-  animation: flip 2.5s linear infinite;
+  animation: flip 5.5s  infinite;
   transform-origin: 50% 50%;
 }
 .S {
-  animation-delay: 0s;
-}
-
-.a {
-  animation-delay: 0.5s;
-}
-
-.i {
   animation-delay: 1s;
 }
 
-.f {
+.a {
   animation-delay: 1.5s;
+}
+
+.i {
+  animation-delay: 2s;
+}
+
+.f {
+  animation-delay: 2.5s;
 }
 @keyframes flip {
   0% {
-      transform: perspective(400px) rotateX(0deg);
+      transform:  rotateX(0deg);
   }
   50% {
-      transform: perspective(400px) rotateX(180deg);
+      transform:  rotateX(360deg);
   }
   100% {
-      transform: perspective(400px) rotateX(0deg);
+      transform: rotateX(0deg);
   }
 }
 .items-grid {
