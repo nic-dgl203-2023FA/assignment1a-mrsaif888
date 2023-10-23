@@ -658,4 +658,7 @@ dialog{
 .svg-img #logo{
     width: 200px;
 }
+.svg-img h2{
+    margin-top: 20px;
+}
 }
