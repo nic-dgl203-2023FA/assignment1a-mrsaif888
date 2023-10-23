@@ -393,6 +393,11 @@ input[type=submit]:hover {
     stroke-dashoffset:450px;
     animation: line-animation 2s ease forwards infinite;
 }
+#logo path:nth-child(2){
+    stroke-dasharray: 70px;
+    stroke-dashoffset: 700px;
+    animation: line-animation 2s ease forwards infinite;
+}
 /* animation  */
 @keyframes wiggle {
     0%, 7% {
