@@ -375,33 +375,39 @@ input[type=submit]:hover {
     align-items: center ;
     justify-content: center ;
 }
+/* animation for <  */
 #logo path:nth-child(6){
     animation: wiggle 2s ease infinite;
 }
+/* animation for S  */
 #logo path:nth-child(5){
     stroke-dasharray: 550px;
     stroke-dashoffset: 550px;
     animation: line-animation 2s ease forwards infinite;
 }
+/* animation for A  */
 #logo path:nth-child(4){
     stroke-dasharray: 50px;
     stroke-dashoffset: 550px;
     animation: line-animation 2s ease forwards infinite;
 }
+/* animation for I  */
 #logo path:nth-child(3){
     stroke-dasharray: 20px;
     stroke-dashoffset:450px;
     animation: line-animation 2s ease forwards infinite;
 }
+/* animation for F  */
 #logo path:nth-child(2){
     stroke-dasharray: 70px;
     stroke-dashoffset: 700px;
     animation: line-animation 2s ease forwards infinite;
 }
+/* animation for >  */
 #logo path:nth-child(1){
-    animation: wiggle 2s ease infinite;
+    animation: wiggle 3s ease infinite;
     }
-/* animation  */
+/* animations  */
 @keyframes wiggle {
     0%, 7% {
       transform: rotateZ(0);
