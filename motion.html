@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="top-nav">
+            <div class="portfolio">
+              <a href="./index.html">PORTFOLIO</a> 
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+              <li><a href="./motion.html">Motion</a></li>
+            </ul>
+          </section>
+        
+    </header>
+    <section class="grid-layout">
+        <div class="content-wrap">
+            <body>
+                <div class="grid-container">
+                    <div class="grid-item"><a href="#" class="motion-button">
+                        SAIF
+                    </a>
+                </div>
+                    <div class="grid-item"><h2 class="animated-element">
+                        SAIF
+                    </h2></div>
+                    <div class="grid-item">
+                        <img src="./images/7CV3Vb01.svg" alt="pengiun" class="penguin">
+                    </div>
+                    <div class="grid-item"><h2 class="typing">
+                        My Name Is Saif.
+                    </h2></div>
+                    <div class="grid-item">
+                        <span class="flip S">S</span>
+                        <span class="flip a">A</span>
+                        <span class="flip i">I</span>
+                        <span class="flip f">F</span></div>
+                    <div class="grid-item ">
+                        <div class="items-grid">
+
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </div>
+
+    </section>
+    <section class="contact-us">
+        <a id="contact-us"></a>
+        <div class="content-wrap">
+          <h2>
+           Let's get Together   
+          </h2>
+          <!-- i took help from this website https://codepen.io/designfenix/pen/oNpqMdL -->
+          <div class="modal">
+            <button class="primary" onclick="window.dialog.showModal();">Open Dialog</button>
+  
+  <dialog id="dialog">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Example@example.com">
+      <input type="submit" value="Submit">
+  
+      
+      <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+  </dialog>
+          </div>
+          
+        </div>
+      </section>
+    
+</body>
+</html>
