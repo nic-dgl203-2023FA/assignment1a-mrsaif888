@@ -374,6 +374,10 @@ input[type=submit]:hover {
     display: flex ;
     align-items: center ;
     justify-content: center ;
+    flex-direction: column;
+}
+#logo{
+    width: 500px;
 }
 /* animation for <  */
 #logo path:nth-child(6){
@@ -406,6 +410,12 @@ input[type=submit]:hover {
 /* animation for >  */
 #logo path:nth-child(1){
     animation: wiggle 3s ease infinite;
+    }
+    .svg-img h2{
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #FAF0CA;
+        animation: pulse 2s infinite; ;
     }
 /* animations  */
 @keyframes wiggle {
@@ -644,5 +654,8 @@ font-size: 15px;
 }
 dialog{
   max-width: 300px;
+}
+.svg-img #logo{
+    width: 200px;
 }
 }
