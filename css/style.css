@@ -375,6 +375,9 @@ input[type=submit]:hover {
     align-items: center ;
     justify-content: center ;
 }
+#logo path:nth-child(6){
+    animation: wiggle 2s ease infinite;
+}
 /* animation  */
 @keyframes wiggle {
     0%, 7% {
