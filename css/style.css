@@ -358,6 +358,16 @@ input[type=submit]:hover {
   animation: pulse 2s infinite;
   
 }
+/* animation */
+.animation-heading{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    background-color: #EE964B;
+    height: 50vh;
+    color: #0D3B66;
+}
+
 @keyframes pulse {
   0% {
       transform: scale(1); /* Original size */
