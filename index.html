@@ -1,134 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saif Ullah | Front End Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    
-  </head>
-  <body class="home">
-    
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <div class="content-wrapper">
+</head>
+<body>
+    <header>
+        <section class="top-nav">
+            <div class="portfolio">
+              <a href="./index.html">PORTFOLIO</a> 
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+              <li><a href="./motion.html">Motion</a></li>
+            </ul>
+          </section>
+        
+    </header>
+    <!-- i took help for the header menu from https://codepen.io/alvarotrigo/pen/MWEJEWG -->
+
+    <section class="profile">
+      <div class="content-wrap">
         <h1>Saif Ullah</h1>
-        <h2>Front End Developer</h2>
-
+        <h2>FrontEnd Developer</h2>
         <p>A front-end developer specializes in designing and implementing the user interface of websites and web applications. They use languages like HTML, CSS, and JavaScript to create visually appealing and responsive interfaces. Front-end developers collaborate closely with designers and back-end developers to ensure seamless user experiences and optimal website functionality.</p>
-        
       </div>
-      </header>
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
-        <div class="content-wrapper divider">
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="http://Saif.com">Saif.com</a>.</p>
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section class="project-item">
-          <img src="placeholder images/annie-spratt-unsplash.jpg" srcset="placeholder images/annie-spratt-unsplash-1000px.png 2x"  alt="project image" width="1000px">
-          <h3>Pluton</h3>
-          <p>Making a website for software development and working on projects given by the company.</p>
-          <a class="btn" href="https://pluton.ltd/" target="_blank">Pluton</a>
-        </section>
-
-         <!-- Copy the whole <section> block to add more projects. -->
-          <section class="project-item">
-            <img src="placeholder images/annie-spratt-unsplash.jpg" srcset="placeholder images/annie-spratt-unsplash-1000px.png 2x"  alt="project image" width="1000px">
-            <h3>Pluton</h3>
-            <p>Making a website for software development and working on projects given by the company.</p>
-            <a class="btn" href="https://pluton.ltd/" target="_blank">Pluton</a>
-          </section>
-
-           <!-- Copy the whole <section> block to add more projects. -->
-        <section class="project-item">
-          <img src="placeholder images/annie-spratt-unsplash.jpg" srcset="placeholder images/annie-spratt-unsplash-1000px.png 2x"  alt="project image" width="1000px">
-          <h3>Pluton</h3>
-          <p>Making a website for software development and working on projects given by the company.</p>
-          <a class="btn" href="https://pluton.ltd/" target="_blank">Pluton</a>
-        </section>
-        <!-- End of Project block. -->
+    </section>
+    <section class="projects">
+      <a id="projects"></a>
+      <div class="content-wrap">
+      <h2>
+        Featured Projects:
+      </h2>
+      <div class="project-detail">
+        <img src="./images/wanchain.jpeg" alt="wanchain">
+        <div class="text-detail">
+          <h3>Wan Chain</h3>
+          <p>Wanchain drives blockchain adoption through crosschain interoperability by building fully decentralised direct bridges that connect the world’s many siloed blockchain networks</p>
         </div>
-      </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="work-experience">
-        <div class="content-wrapper item-details divider">
-        <h2>Work Experience</h2>
-        
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section class="job-item">
-          <div class="job-details">
-          <h3>Junior frontend developer</h3>
-          <p>Pluton LTD</p>
-          <p>1/august/2023</p>
-        </div>
-        <div class="job-summary">
-        <p>A junior front-end developer's task involves creating and maintaining the user interface of a website or web application. They work with HTML, CSS, and JavaScript to ensure the site looks and functions as intended, collaborating with design and back-end teams to deliver a seamless and responsive user experience.</p>
       </div>
-         
-        </section>
-        <!-- Copy this whole <section> block to add more jobs. -->
-          <section class="job-item">
-            <div class="job-details">
-            <h3>developer</h3>
-            <p>Pluton LTD</p>
-            <p>1/august/2023</p>
-          </div>
-          <div class="job-summary">
-            <p>A developer's task involves creating and maintaining the user interface of a website or web application. They work with HTML, CSS, and JavaScript to ensure the site looks and functions as intended, collaborating with design and back-end teams to deliver a seamless and responsive user experience.</p>
-          </div>
-          </section>
-          <!-- Copy this whole <section> block to add more jobs. -->
-        <section class="job-item">
-          <div class="job-details">
-          <h3>Junior backend developer</h3>
-          <p>Pluton LTD</p>
-          <p>1/august/2023</p>
+      <div class="project-detail">
+        <img src="./images/polkadot.png" alt="wanchain">
+        <div class="text-detail">
+          <h3>PolkaDot</h3>
+          <p>The blockspace ecosystem for boundless innovation
+            Get your Web3 ideas to market fast with economics that work for you</p>
         </div>
-        <div class="job-summary">
-          <p>A junior back-end developer's task involves creating and maintaining the user interface of a website or web application. They work with HTML, CSS, and JavaScript to ensure the site looks and functions as intended, collaborating with design and back-end teams to deliver a seamless and responsive user experience.</p>
+      </div>
+      <div class="project-detail">
+        <img src="./images/citymonk.jpeg" alt="wanchain">
+        <div class="text-detail">
+          <h3>City Monk</h3>
+          <p>City Monk establishment was laid in 2018. Our experience started determined to utilize state-of-the-art innovation to
+            carry transparency and trustworthiness to organization processes.</p>
         </div>
-         
-        </section>
-        <!-- End of Job block. -->
-        </div>
-      </section>
-
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
-        <div class="content-wrapper item-details">
-        <h2>Education</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>North Island College - Courtenay</h3>
-          <p>Digital Design And Development, year 2023</p>
+      </div>
+      <div class="for-more">
+      <a href="https://pluton.ltd/">For More Details</a>
+    </div>
+    </div>
+    
+    </section>
+    <section class="employment">
+      <a id="employment"></a>
+      <div class="content-wrap">
+      <h2>
+        Work Experience
+      </h2>
+      <div class="employment-detail">
+        <h3>
+          Pluton
+        </h3>
+        <h3>
+          Junior frontend developer
+        </h3>
+        <p>1/august/2023</p>
+        <ul>
+          <li>Design: You will be provided with a design mockup (PSD, Sketch, or Figma file) for the landing page. Your task is to convert this design into a fully functional web page.</li>
+          <li>Responsiveness: Ensure that the landing page is responsive and looks great on various screen sizes, including desktop, tablet, and mobile devices.</li>
+          <li>Content: Populate the landing page with relevant content, including text, images, and any necessary icons or graphics.</li>
+          <li>Call to Action: Implement a clear and compelling call-to-action (CTA) button that leads visitors to take the desired action.</li>
           
-        </section>
-        <!-- End of School block. -->
-        </div>
-      </section>
-
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <div class="content-wrapper">
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class="contact-list">
-          <li><a href="mailto:usaif453@gmail.com"target="_blank">usaif453@gmail.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">Youtube</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">Linkedin</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
         </ul>
+        <a href="https://pluton.ltd/">For More Info</a>
+      </div>
+      <div class="employment-detail">
+        <h3>
+          10 Pearls
+        </h3>
+        <h3>
+          Frontend developer
+        </h3>
+        <p>5/may/2022</p>
+        <ul>
+          <li>Responsiveness: Ensure that the landing page is responsive and looks great on various screen sizes, including desktop, tablet, and mobile devices.</li>
+          <li>Content: Populate the landing page with relevant content, including text, images, and any necessary icons or graphics.</li>
+          <li>Call to Action: Implement a clear and compelling call-to-action (CTA) button that leads visitors to take the desired action.</li>
+          
+        </ul>
+        <a href="https://10pearls.com/">For More Info </a>
+      </div>
+      <div class="employment-detail">
+        <h3>
+          Systems Limited
+        </h3>
+        <h3>
+          Internship
+        </h3>
+        <p>8/sept/2020</p>
+        <ul>
+          <li>Design: Create a visually appealing and user-friendly design for your portfolio website. You can design it in tools like Figma, Adobe XD, or even sketch it on paper first.</li>
+          <li>Development: Build the website using HTML, CSS, and JavaScript. You can use popular libraries and frameworks like Bootstrap or Tailwind CSS for styling, but make sure to have a good understanding of the underlying technologies.</li>
+          <li>Responsiveness: Ensure that the website is fully responsive and looks great on various devices, including desktops, tablets, and mobile phones.</li>
+          
+        </ul>
+        <a href="https://www.systemsltd.com/careers">For More Info </a>
+      </div>
+    </div>
+    </section>
+    <section class="education">
+      <a id="education"></a>
+      <div class="content-wrap">
+        <h2>
+          Education
+        </h2>
+        <div class="education-detail">
+          <h3>
+            Iqra University
+          </h3>
+          <p>Bachelor in Computer Science</p>
+          <p>2017-2021</p>
         </div>
-      </footer>
-    </main>
-  </body>
+        <div class="education-detail">
+          <h3>
+            North Island College
+          </h3>
+          <p>Post Graduation Diploma In Digital Design And Development</p>
+          <p>2023-2024</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <a id="contact-us"></a>
+      <div class="content-wrap">
+        <h2>
+         Let's get Together   
+        </h2>
+        <!-- i took help from this website https://codepen.io/designfenix/pen/oNpqMdL -->
+        <div class="modal">
+          <button class="primary" onclick="window.dialog.showModal();">Open Dialog</button>
+
+<dialog id="dialog">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Example@example.com">
+    <input type="submit" value="Submit">
+
+    
+	<button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+</dialog>
+        </div>
+        
+      </div>
+    </section>
+</body>
 </html>
