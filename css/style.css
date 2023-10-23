@@ -367,6 +367,10 @@ input[type=submit]:hover {
     height: 50vh;
     color: #0D3B66;
 }
+/* svg image */
+.svg-img{
+    background-color: #0D3B66;
+}
 
 @keyframes pulse {
   0% {
