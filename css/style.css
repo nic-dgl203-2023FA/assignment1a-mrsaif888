@@ -370,6 +370,10 @@ input[type=submit]:hover {
 /* svg image */
 .svg-img{
     background-color: #0D3B66;
+    height: 50vh;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
 }
 
 @keyframes pulse {
