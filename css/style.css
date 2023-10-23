@@ -48,6 +48,9 @@ header{
 .portfolio{
   font-size: 25px;
 }
+.portfolio a:hover{
+    color: #0D3B66;
+}
 .top-nav{
     display: flex;
     align-items: center;
