@@ -63,3 +63,15 @@
         }
       }
 }
+@mixin transition-custom{
+    @keyframes customAnimation {
+        0% {
+            transform: translateX(-80px);
+            background-color: #FAF0CA; /* Initial color */
+        }
+        100% {
+            transform: translateX(100px);
+            background-color: #EE964B; /* Color change at the end */
+        }
+      }
+}

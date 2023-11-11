@@ -444,6 +444,23 @@ input[type=submit] {
     transform: rotateX(0deg);
   }
 }
+.grid-layout__items-grid {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #FAF0CA;
+  animation: customAnimation 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate;
+}
+@keyframes customAnimation {
+  0% {
+    transform: translateX(-80px);
+    background-color: #FAF0CA; /* Initial color */
+  }
+  100% {
+    transform: translateX(100px);
+    background-color: #EE964B; /* Color change at the end */
+  }
+}
 
 .grid-layout__grid-item span:nth-child(1) {
   animation-delay: 1s;
