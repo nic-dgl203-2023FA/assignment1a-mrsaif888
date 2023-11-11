@@ -2,12 +2,12 @@
 @import 'header';
 @import 'profile';
 @import 'projects';
-@import 'employment.scss';
-@import 'education.scss';
+@import 'employment';
+@import 'education';
 @import 'contact-us';
-@import 'motion.scss';
-@import './responsive';
-html,body{
+@import 'motion';
+@import 'responsive';
+html{
     margin: 0;
 }
 *{

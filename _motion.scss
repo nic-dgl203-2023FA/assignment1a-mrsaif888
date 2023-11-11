@@ -1,0 +1,67 @@
+.grid-layout {
+  text-align: center;
+  background-color: #0d3b66;
+  &__grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    grid-template-rows: repeat(6, 1fr); /* 6 rows on small screens */
+  }
+  &__grid-item {
+    height: 300px;
+    background: #f95738;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+      width: 100px;
+    }
+    
+
+}
+     &__penguin{
+        &:hover{
+      @include transition-move;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      animation-name:move;
+        }
+    }
+    &__typing{
+      @include transition-typing;
+      font-size: 1.5rem;
+  color: #FAF0CA;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #000;
+  animation: typing 4s steps(17) infinite,
+            blink 0.5s steps(1) infinite;
+    }
+  
+  &__motion-button {
+    display: inline-block;
+    padding: 15px 80px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.3s, transform 0.5s ease-in-out,
+      border-radius 0.5s; /* Transition properties with timing */
+    &:hover {
+      background-color: #f4d35e;
+      color: #faf0ca;
+      transform: scale(
+        1.1
+      ); /* Scale the button on hover with a longer timing */
+      border-radius: 15px;
+    }
+  }
+  &__animated-element {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #faf0ca;
+    @include transition-pulse;
+    animation: pulse 2s infinite;
+  }
+}
