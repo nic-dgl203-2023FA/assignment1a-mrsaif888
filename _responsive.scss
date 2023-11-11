@@ -70,4 +70,11 @@
     dialog{
         max-width: 400px;
     }
+    .grid-layout{
+    &__grid-container{
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows on large screens */
+  gap: 10px; /* Adjust the gap between grid items */ 
+    }
+}
 }

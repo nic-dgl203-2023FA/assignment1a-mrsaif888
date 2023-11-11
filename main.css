@@ -349,6 +349,12 @@ input[type=submit] {
   grid-template-columns: 1fr; /* 1 column on small screens */
   grid-template-rows: repeat(6, 1fr); /* 6 rows on small screens */
 }
+.grid-layout__content-wrap {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+  width: 85%;
+}
 .grid-layout__grid-item {
   height: 300px;
   background: #f95738;
@@ -532,6 +538,11 @@ input[type=submit] {
   }
   dialog {
     max-width: 400px;
+  }
+  .grid-layout__grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows on large screens */
+    gap: 10px; /* Adjust the gap between grid items */
   }
 }
 html {

@@ -1,10 +1,17 @@
 .grid-layout {
   text-align: center;
   background-color: #0d3b66;
+  
   &__grid-container {
     display: grid;
     grid-template-columns: 1fr; /* 1 column on small screens */
     grid-template-rows: repeat(6, 1fr); /* 6 rows on small screens */
+  }
+  &__content-wrap{
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 900px;
+    width: 85%;
   }
   &__grid-item {
     height: 300px;
