@@ -30,6 +30,7 @@
     }
     &__typing{
       @include transition-typing;
+      @include transition-blink;
       font-size: 1.5rem;
   color: #FAF0CA;
   overflow: hidden;
@@ -63,5 +64,18 @@
     text-shadow: 2px 2px 3px #faf0ca;
     @include transition-pulse;
     animation: pulse 2s infinite;
+  }
+  &__flip{
+    @include transition-flip;
+    font-size: 2rem;
+    display: inline-block;
+    animation: flip 5.5s  infinite;
+    transform-origin: 50% 50%;
+    }
+
+}
+@for $i from 1 through 4{
+  .grid-layout__grid-item span:nth-child(#{$i}){
+    animation-delay: ($i *0.5s)+0.5s ;
   }
 }

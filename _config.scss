@@ -39,3 +39,27 @@
         }
       }
 }
+@mixin transition-blink{
+    @keyframes blink {
+        0%, 100% {
+            border-color: transparent;
+        }
+        50% {
+            border-color: #F4D35E;
+        }
+      }
+
+}
+@mixin transition-flip{
+    @keyframes flip {
+        0% {
+            transform:  rotateX(0deg);
+        }
+        50% {
+            transform:  rotateX(360deg);
+        }
+        100% {
+            transform: rotateX(0deg);
+        }
+      }
+}
