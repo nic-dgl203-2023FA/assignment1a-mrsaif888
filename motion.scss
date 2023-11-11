@@ -29,5 +29,12 @@
   border-radius: 15px; 
             }
         }
+        &__animated-element {
+            font-size: 3rem;
+            text-shadow: 2px 2px 3px #FAF0CA;
+            @include transition-pulse;
+            animation: pulse 2s infinite; 
+            
+          }
     }
     

@@ -29,4 +29,9 @@
   color: #FAF0CA;
   transform: scale(1.1); /* Scale the button on hover with a longer timing */
   border-radius: 15px;
+}
+.grid-layout__animated-element {
+  font-size: 3rem;
+  text-shadow: 2px 2px 3px #FAF0CA;
+  animation: pulse 2s infinite;
 }/*# sourceMappingURL=motion.css.map */
