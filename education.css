@@ -1,0 +1,20 @@
+.education {
+  background: url("../images/gold-metal-texture.jpg");
+  background-size: cover;
+}
+.education h2 {
+  font-size: 30px;
+}
+.education__content-wrap {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+  width: 85%;
+}
+.education__education-detail {
+  padding-top: 20px;
+}
+.education__education-detail p {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=education.css.map */
