@@ -484,6 +484,27 @@ input[type=submit] {
   animation-delay: 2.5s;
 }
 
+.animation-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EE964B;
+  height: 50vh;
+  color: #0D3B66;
+}
+
+.svg-img {
+  background-color: #0D3B66;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.svg-img #logo {
+  width: 200px;
+}
+
 @media screen and (min-width: 768px) {
   .menu-button-container {
     display: none;
