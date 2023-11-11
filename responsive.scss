@@ -1,0 +1,26 @@
+@include media-md{
+    .menu-button-container{
+        display: none;
+    }
+    .menu{
+       
+        flex-direction: row;
+        justify-content: unset;
+        position: unset;
+        margin-top: unset;
+        width: unset;
+        align-items: baseline;
+        font-size: 19px;
+        &__item{
+            margin: 0 1rem !important;
+            & a{
+                display: inline-block;
+                color: black;
+                &:hover{
+                    color: #0D3B66;
+                }
+            }
+        }
+    }
+
+}
