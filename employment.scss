@@ -1,0 +1,39 @@
+.employment{
+    text-align: center;
+    background: #F4D35E;
+    &__content-wrap{
+        margin: 0 auto;
+        padding: 50px 0;
+        max-width: 900px;
+        width: 85%;
+    }
+    & h2{
+        font-size: 30px;
+    }
+    & p,ul{
+        font-size: 15px;
+    }
+
+    &__employment-detail{
+        padding: 30px 0;
+        border-bottom: 1px black dotted;
+        & h3{
+            font-size: 20px;
+            padding-top: 0;
+        }
+        & ul{
+            text-align: left;
+        }
+        & a {
+            padding: 10px;
+            font-size: 12px;
+            background: #0D3B66;
+            color: #FAF0CA;
+            border-radius: 15px;
+            text-transform: uppercase;
+            &:hover{
+                background: rgba(13, 59, 102, 0.8);
+            }
+        }
+      }
+  }

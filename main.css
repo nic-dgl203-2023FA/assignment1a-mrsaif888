@@ -182,6 +182,45 @@ header {
   text-transform: uppercase;
 }
 
+.employment {
+  text-align: center;
+  background: #F4D35E;
+}
+.employment__content-wrap {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+  width: 85%;
+}
+.employment h2 {
+  font-size: 30px;
+}
+.employment p, .employment ul {
+  font-size: 15px;
+}
+.employment__employment-detail {
+  padding: 30px 0;
+  border-bottom: 1px black dotted;
+}
+.employment__employment-detail h3 {
+  font-size: 20px;
+  padding-top: 0;
+}
+.employment__employment-detail ul {
+  text-align: left;
+}
+.employment__employment-detail a {
+  padding: 10px;
+  font-size: 12px;
+  background: #0D3B66;
+  color: #FAF0CA;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+.employment__employment-detail a:hover {
+  background: rgba(13, 59, 102, 0.8);
+}
+
 html, body {
   margin: 0;
 }
