@@ -207,6 +207,9 @@ header {
   font-size: 20px;
   padding-top: 0;
 }
+.employment__employment-detail:last-of-type {
+  border-bottom: none;
+}
 .employment__employment-detail ul {
   text-align: left;
 }
@@ -375,6 +378,16 @@ input[type=submit] {
   }
   .projects__text-detail p {
     width: 85%;
+  }
+  .employment p {
+    font-size: 19px;
+  }
+  .employment ul {
+    font-size: 19px;
+  }
+  .employment__employment-detail a {
+    padding: 15px;
+    font-size: inherit;
   }
 }
 html, body {

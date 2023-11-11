@@ -45,4 +45,20 @@
         }
     }
 
+    // employment
+    .employment{
+        & p{
+            font-size: 19px;
+        }
+        & ul{
+            font-size: 19px;
+        }
+        &__employment-detail{
+            & a{
+                padding: 15px;
+                font-size: inherit;
+            }
+        }
+    }
+
 }
