@@ -389,6 +389,12 @@ input[type=submit] {
     padding: 15px;
     font-size: inherit;
   }
+  .education h2 {
+    font-size: 40px;
+  }
+  dialog {
+    max-width: 400px;
+  }
 }
 html, body {
   margin: 0;

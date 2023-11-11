@@ -60,5 +60,14 @@
             }
         }
     }
-
+    // education
+    .education {
+        & h2{
+            font-size: 40px;
+        }
+    }
+    // contact
+    dialog{
+        max-width: 400px;
+    }
 }
