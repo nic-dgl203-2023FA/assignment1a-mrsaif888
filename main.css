@@ -503,6 +503,77 @@ input[type=submit] {
 }
 .svg-img #logo {
   width: 200px;
+  /* animation for <  */
+  /* animation for S  */
+  /* animation for A  */
+  /* animation for I  */
+  /* animation for F  */
+  /* animation for >  */
+}
+.svg-img #logo path:nth-child(6) {
+  animation: wiggle 2s ease infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.svg-img #logo path:nth-child(5) {
+  stroke-dasharray: 550px;
+  stroke-dashoffset: 550px;
+  animation: line-animation 2s ease forwards infinite;
+}
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.svg-img #logo path:nth-child(4) {
+  stroke-dasharray: 50px;
+  stroke-dashoffset: 550px;
+  animation: line-animation 2s ease forwards infinite;
+}
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.svg-img #logo path:nth-child(3) {
+  stroke-dasharray: 20px;
+  stroke-dashoffset: 450px;
+  animation: line-animation 2s ease forwards infinite;
+}
+.svg-img #logo path:nth-child(2) {
+  stroke-dasharray: 70px;
+  stroke-dashoffset: 700px;
+  animation: line-animation 2s ease forwards infinite;
+}
+.svg-img #logo path:nth-child(1) {
+  animation: wiggle 3s ease infinite;
+}
+.svg-img h2 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: #FAF0CA;
+  animation: pulse 2s infinite;
 }
 
 @media screen and (min-width: 768px) {

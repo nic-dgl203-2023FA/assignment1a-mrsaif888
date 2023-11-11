@@ -17,5 +17,49 @@
 
     #logo{
         width: 200px;
+       
+        /* animation for <  */
+        path:nth-child(6){
+            @include transition-wiggle;
+            animation: wiggle 2s ease infinite;
+        }
+        /* animation for S  */
+ path:nth-child(5){
+    @include transition-line;
+    stroke-dasharray: 550px;
+    stroke-dashoffset: 550px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for A  */
+ path:nth-child(4){
+    @include transition-line;
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 550px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for I  */
+ path:nth-child(3){
+    stroke-dasharray: 20px;
+    stroke-dashoffset:450px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for F  */
+ path:nth-child(2){
+    stroke-dasharray: 70px;
+    stroke-dashoffset: 700px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for >  */
+ path:nth-child(1){
+    animation: wiggle 3s ease infinite;
+    }
+    }
+    & h2{
+        
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: #FAF0CA;
+            animation: pulse 2s infinite; ;
+        
     }
 }

@@ -100,3 +100,10 @@
         }
       }
 }
+@mixin transition-line{
+    @keyframes line-animation{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+}
