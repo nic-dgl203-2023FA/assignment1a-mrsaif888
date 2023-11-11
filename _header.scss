@@ -43,6 +43,7 @@ header{
         & a{
             display: none;
         color: #FAF0CA;
+        text-transform: uppercase;
         }
         &:not(:last-child){
             border-bottom: 1px solid #444;

@@ -46,6 +46,7 @@ header {
 .menu__item a {
   display: none;
   color: #FAF0CA;
+  text-transform: uppercase;
 }
 .menu__item:not(:last-child) {
   border-bottom: 1px solid #444;
@@ -125,6 +126,22 @@ header {
   transform: rotate(-405deg);
 }
 
+.profile {
+  background: #EE964B;
+  color: #FAF0CA;
+  text-align: center;
+}
+.profile h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.profile__content-wrap {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+  width: 85%;
+}
+
 html, body {
   margin: 0;
 }
@@ -136,4 +153,13 @@ html, body {
 a {
   text-decoration: none;
   color: black;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 40px;
 }/*# sourceMappingURL=main.css.map */
