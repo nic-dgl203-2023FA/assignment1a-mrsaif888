@@ -48,6 +48,9 @@ header{
 .portfolio{
   font-size: 25px;
 }
+.portfolio a:hover{
+    color: #0D3B66;
+}
 .top-nav{
     display: flex;
     align-items: center;
@@ -358,6 +361,95 @@ input[type=submit]:hover {
   animation: pulse 2s infinite;
   
 }
+/* animation */
+.animation-heading{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    background-color: #EE964B;
+    height: 50vh;
+    color: #0D3B66;
+}
+/* svg image */
+.svg-img{
+    background-color: #0D3B66;
+    height: 50vh;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column;
+}
+#logo{
+    width: 500px;
+}
+/* animation for <  */
+#logo path:nth-child(6){
+    animation: wiggle 2s ease infinite;
+}
+/* animation for S  */
+#logo path:nth-child(5){
+    stroke-dasharray: 550px;
+    stroke-dashoffset: 550px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for A  */
+#logo path:nth-child(4){
+    stroke-dasharray: 50px;
+    stroke-dashoffset: 550px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for I  */
+#logo path:nth-child(3){
+    stroke-dasharray: 20px;
+    stroke-dashoffset:450px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for F  */
+#logo path:nth-child(2){
+    stroke-dasharray: 70px;
+    stroke-dashoffset: 700px;
+    animation: line-animation 2s ease forwards infinite;
+}
+/* animation for >  */
+#logo path:nth-child(1){
+    animation: wiggle 3s ease infinite;
+    }
+    .svg-img h2{
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #FAF0CA;
+        animation: pulse 2s infinite; ;
+    }
+/* animations  */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  @keyframes line-animation{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
 @keyframes pulse {
   0% {
       transform: scale(1); /* Original size */
@@ -565,5 +657,11 @@ font-size: 15px;
 }
 dialog{
   max-width: 300px;
+}
+.svg-img #logo{
+    width: 200px;
+}
+.svg-img h2{
+    margin-top: 20px;
 }
 }
