@@ -636,6 +636,9 @@ input[type=submit] {
     grid-template-rows: repeat(2, 1fr); /* 2 rows on large screens */
     gap: 10px; /* Adjust the gap between grid items */
   }
+  .svg-img #logo {
+    width: 500px;
+  }
 }
 html {
   margin: 0;
